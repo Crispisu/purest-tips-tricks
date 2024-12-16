@@ -1,1 +1,1 @@
-# purest-tips-tricks
+# pytest-tips-tricks
