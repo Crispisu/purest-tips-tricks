@@ -9,6 +9,9 @@ test:
 debug:
 	python -m pytest -vv --pdb #debugger is invoked
 
+one-test:
+	python -m pytest -vv tests/test_greeting.py::test_my_name4
+
 debugthree:
 	python -m pytest -vv --pdb --maxfail=3 #drop to pdb for first 3 failures
 
